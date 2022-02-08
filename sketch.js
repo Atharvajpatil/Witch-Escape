@@ -139,7 +139,7 @@ witch_laugh.volume  = 30
       jumpSound.play();
     }
 
-    if(touches.lenght>0&&girl.y>=230){
+    if(touches.length>0&&girl.y>=230){
     girl.velocityY = -12;
     jumpSound.play();
     }
@@ -163,7 +163,7 @@ witch_laugh.volume  = 30
     obstaclesGroup.setLifetimeEach(-1);
     obstaclesGroup.setVelocityXEach(0);
 
-    if (mousePressedOver(restart)||touches.lenght>0||keyDown("enter")) {
+    if (mousePressedOver(restart)||touches.length>0||keyDown("enter")) {
       reset();
     }
   }
