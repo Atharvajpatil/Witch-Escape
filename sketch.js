@@ -139,7 +139,7 @@ witch_laugh.volume  = 30
       jumpSound.play();
     }
 
-    if(touches.length>0&&girl.y>=230){
+    if(touches.length>1&&girl.y>=230){
     girl.velocityY = -12;
     jumpSound.play();
     }
